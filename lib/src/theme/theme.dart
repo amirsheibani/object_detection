@@ -232,6 +232,20 @@ class AppTheme {
 final darkTheme = AppTheme.darkTheme();
 final lightTheme = AppTheme.lightTheme();
 
+class ColorsBox{
+  // ColorsBox._();
+  static const Map<ColorsBoxType,Color> ColorsBoxItems = <ColorsBoxType,Color>{
+    ColorsBoxType.switch_text: const Color(0xff5F4849),
+    ColorsBoxType.switch_activeTrackColor: const Color(0xffD19B6C),
+    ColorsBoxType.switch_activeColor: const Color(0xffA76C5E),
+    ColorsBoxType.switch_inactiveTrackColor: const Color(0xff5F4849),
+    ColorsBoxType.switch_inactiveThumbColor: const Color(0xff5F4849),
+    ColorsBoxType.dialog_title_background: const Color(0xff78909c),
+    ColorsBoxType.dialog_title_close_text: const Color(0xffffffff),
+    ColorsBoxType.dialog_title_confirm_text: const Color(0xff263238),
+  };
+}
+
 class HexColor extends Color {
   static int _getColorFromHex(String hexColor) {
     hexColor = hexColor.toUpperCase().replaceAll("#", "");
@@ -242,4 +256,8 @@ class HexColor extends Color {
   }
 
   HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
+}
+enum ColorsBoxType{
+  switch_text,switch_activeTrackColor,switch_activeColor,switch_inactiveTrackColor,switch_inactiveThumbColor,
+  dialog_title_background,dialog_title_close_text,dialog_title_confirm_text,
 }

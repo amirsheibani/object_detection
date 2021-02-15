@@ -42,6 +42,11 @@ dependencies:
   font_awesome_flutter: ^8.11.0
   path: ^1.7.0
   path_provider_ex: ^1.0.1
+  tflite: ^1.1.1
+  camera: ^0.7.0+2
+  file_picker: ^2.1.6
+  flutter_datetime_picker: ^1.5.0
+  mailer: ^3.3.0
 
   hive:
   hive_flutter:
@@ -104,6 +109,14 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/ml/detect.tflite
+    - assets/ml/labelmap.txt
+#    - assets/images/capture_photo.png
+#    - assets/images/camera_switch.png
   fonts:
     - family: Hero
       fonts:

@@ -2,6 +2,16 @@
 
 Object Detection By Tensorflow
 
+![ObjectDetection-iOS](demo/iso_demo.gif) ![ObjectDetection-Android](demo/android_demo.gif)
+
+<div align="center">
+  <img src="https://www.tensorflow.org/images/tf_logo_social.png" width="64" height="64"/><br /><br />
+</div>
+
+## What is this repo?
+
+This is the TensorFlow example repo for flutter
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
@@ -14,3 +24,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## License
+
+[Apache License 2.0](LICENSE)

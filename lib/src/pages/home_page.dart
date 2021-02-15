@@ -199,11 +199,11 @@ class _HomePageState extends State<HomePage> {
           return Container(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
-            child: TFLitePage(path),
-            // child: Padding(
-            //   padding: EdgeInsets.only(top: ((MediaQuery.of(context).size.height - AppBar().preferredSize.height - 47) / 4)),
-            //   child: TFLitePage(path),
-            // ),
+            // child: TFLitePage(path),
+            child: Padding(
+              padding: EdgeInsets.only(top: ((MediaQuery.of(context).size.height - AppBar().preferredSize.height - 47) / 4)),
+              child: TFLitePage(path),
+            ),
           );
         });
   }

@@ -5,7 +5,7 @@ Object Detection By Tensorflow
   <img src="https://www.tensorflow.org/images/tf_logo_social.png" width="128"/><br /><br />
 </div>
 
-![ObjectDetection-iOS](demo/iso_demo.gif) ![ObjectDetection-Android](demo/android_demo.gif)
+![ObjectDetection-iOS](demo/ios_demo.gif) ![ObjectDetection-Android](demo/android_demo.gif)
  
 ## What is this repo?
 

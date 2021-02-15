@@ -1,14 +1,17 @@
-# object_detection
+# Object Detection ML
 
 Object Detection By Tensorflow
-<div align="center">
+<div align="left">
   <img src="https://www.tensorflow.org/images/tf_logo_social.png" width="128"/><br /><br />
 </div>
 
-![ObjectDetection-iOS](demo/iso_demo.gif) ![ObjectDetection-Android](demo/android_demo.gif)
-
-
-
+<div align="left" width: 50%;>
+  ![ObjectDetection-iOS](demo/iso_demo.gif)
+</div>
+<div align="left" width: 50%;>
+  ![ObjectDetection-Android](demo/android_demo.gif)
+</div>
+ 
 ## What is this repo?
 
 This is the TensorFlow example repo for flutter

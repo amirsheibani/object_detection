@@ -26,4 +26,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ## License
 
-[Apache License 2.0](LICENSE)
+[Apache License 2.0](LICENSE)<!-- @IGNORE PREVIOUS: link -->
